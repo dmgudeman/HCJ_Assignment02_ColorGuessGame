@@ -1,0 +1,42 @@
+<!-- HTML, CSS and Javascript Coursera course-->
+<!--Week 2 Assignment - Part 1 -->
+<!--David M Gudeman-->
+<!--February 14, 2016-->
+<!docutype html>
+<html>
+    <head>
+        <title>JavaScript Guessing Game</title>
+    </head>
+    <body onload="do_game()">
+        <script>
+            var target;
+            var target_text;
+            var guess_input_text;
+            var guess_input;
+            var finished = false;
+            var colors =["blue", "cyan", "gold", "gray", "green", "magenta", "orange", "red", "white", "yellow"];
+
+            function do_game() {
+                var random_number = Math.random() * 10;
+                var random_number_integer = Math.floor(random_number);
+                
+                target = random_number_integer;
+                target_text = colors[target];
+                
+                alert (target_text);
+    
+                while (!finished) {
+                    guess_input_text = prompt("I am thinking of one of these colors: " +
+                                "blue, cyan, gold, gray, green, magenta, orange, red, white or yellow.\n\n" +
+                                "What color am I thinking of?");
+                    guess_input = colors.indexOf(guess_input_text);
+
+                    if (guess_input == target) {
+                        alert("You got it! The color was " + target_text +  ".\n\n");
+                    return true;
+                    } 
+                }
+            }
+        </script>   
+    </body>
+</html>
