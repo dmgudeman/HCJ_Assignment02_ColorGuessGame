@@ -11,5 +11,5 @@ Opening alert:
 
 Winning alert:
 [//]: # (Comment) ![winAlert](/winAlert.png)
-<figure><img src="/winAlert.png" alt="winAlert" width="600"
+<figure><img src="/winAlert.png" alt="winAlert" width="700"
 height="800"></figure>
