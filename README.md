@@ -8,3 +8,8 @@ hints about the alphabetization status of the mistery color.
 Opening alert:
 [//]: # (Comment) ![openAlert](/openAlert.png)
 <figure><img src="/openAlert.png" alt="image" width="400" height="200"></figure>
+
+Winning alert:
+[//]: # (Comment) ![winAlert](/winAlert.png)
+<figure><img src="/winAlert.png" alt="winAlert" width="600"
+height="800"></figure>
